@@ -6,9 +6,9 @@ require('./mock.js')
 require('./style.less')
 
 export default {
-    name: "mk-app-login",
+    name: "fmk-app-login",
     version: "1.0.10",
-    description: "mk-app-login",
+    description: "fmk-app-login",
     meta: data.getMeta(),
     components: [],
     config: config,
