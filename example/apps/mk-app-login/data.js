@@ -12,7 +12,7 @@ export function getMeta() {
 				component: '::img',
 				className: 'mk-app-login-header-logo',
 				src: '{{$getLogo()}}'
-			}, 'Monkey King']
+			}, 'Fintelon']
 		}, {
 			name: 'content',
 			className: 'mk-app-login-content',
@@ -114,7 +114,7 @@ export function getMeta() {
 			name: 'footer',
 			className: 'mk-app-login-footer',
 			component: 'Layout',
-			children: 'copyright © 2015-2017 Monkey King'
+			children: 'copyright © 2015-2017 Fintelon'
 		}]
 	}
 }
