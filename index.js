@@ -2,15 +2,15 @@ import config from './config'
 import * as data from './data'
 
 export default {
-	name: "fmk-app-login",
+	name: "fk-app-login",
 	version: "1.0.0",
-	description: "fmk-app-login",
+	description: "fk-app-login",
 	meta: data.getMeta(),
 	components: [],
 	config: config,
 	load: (cb) => {
 		require.ensure([], require => {
 			cb(require('./component'), require('./action'), require('./reducer'))
-		}, "fmk-app-login")
+		}, "fk-app-login")
 	}
 }
